@@ -9,7 +9,7 @@
 
     <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener" />
 
-    <property name="LOG_DIR" value="/home/product/logs/electronic_contract_tiqianle_java_logs" />
+    <property name="LOG_DIR" value="/home/product/logs/java_logs" />
 
     <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
@@ -49,7 +49,7 @@
 
 <included>
     <!-- 日志监控 -->
-    <property name="MONITORLOG_DIR" value="/home/product/logs/fsof_monitor" />
+    <property name="MONITORLOG_DIR" value="/home/product/logs/monitor" />
 
     <appender name="MONITOR_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <prudent>true</prudent>
